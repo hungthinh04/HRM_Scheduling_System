@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Head Office12",
+    "address": "123 Main Street, District 1",
+    "capacity": 20,
+    "required_skills": [
+      "admin",
+      "customer_service",
+      "sales"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Branch Office North",
+    "address": "456 North Avenue, District 3",
+    "capacity": 15,
+    "required_skills": [
+      "admin",
+      "customer_service",
+      "technical"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Branch Office South",
+    "address": "789 South Boulevard, District 7",
+    "capacity": 15,
+    "required_skills": [
+      "sales",
+      "customer_service",
+      "maintenance"
+    ]
+  }
+]

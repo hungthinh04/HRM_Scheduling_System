@@ -1,0 +1,294 @@
+# ============================================
+# Environment & Secrets
+# ============================================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+.envrc
+
+# ============================================
+# Python - Bytecode & Cache
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Python - Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Python - Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Python - Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+*.cover
+
+# Python - Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Python - mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Python - Pyre type checker
+.pyre/
+
+# Python - IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ============================================
+# Node.js / Next.js
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Next.js - Environment
+.env*.local
+.next-env.d.ts
+
+# Node.js - Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Node.js - Package managers
+package-lock.json.bak
+yarn.lock.bak
+pnpm-lock.yaml.bak
+
+# ============================================
+# Database Files
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+*.db-journal
+backend/data/*.db
+
+# ============================================
+# Generated Schedule Files
+# ============================================
+backend/data/schedule*.json
+frontend/public/schedule*.json
+
+# Keep template/structure but ignore generated content
+# Uncomment below if you want to keep empty schedule files
+# !backend/data/schedule_template.json
+
+# ============================================
+# Logs
+# ============================================
+*.log
+logs/
+*.log.*
+backend/logs/
+*.log.*.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================
+# OS Files
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================
+# IDE & Editor Files
+# ============================================
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (IntelliJ, PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+*.swp
+*.swo
+*~
+.cache/
+tmp/
+temp/
+.tmp/
+.temp/
+
+# ============================================
+# Build & Output Directories
+# ============================================
+build/
+dist/
+out/
+target/
+*.exe
+*.dll
+*.dylib
+*.so
+
+# ============================================
+# Documentation (Optional - uncomment if needed)
+# ============================================
+# docs/_build/
+# site/
+
+# ============================================
+# AI/ML Models (if you add them later)
+# ============================================
+*.h5
+*.pkl
+*.pickle
+*.model
+*.pt
+*.pth
+models/
+checkpoints/
+weights/
+
+# ============================================
+# Sensitive Data Files
+# ============================================
+secrets/
+*.key
+*.pem
+*.cert
+*.crt
+config/secrets.yaml
+config/secrets.json
+credentials.json
+
+# ============================================
+# Project Specific
+# ============================================
+# Keep employee/location/shift data but regenerate schedule
+# Uncomment if you want to ignore all data files
+# backend/data/*.json
+# frontend/public/*.json
+
+# But keep the structure files (optional)
+# !backend/data/employees.json
+# !backend/data/locations.json
+# !backend/data/shifts.json
